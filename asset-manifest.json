@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TRIP-TAILOR/static/css/main.39178f34.css",
+    "main.js": "/TRIP-TAILOR/static/js/main.4a639999.js",
+    "index.html": "/TRIP-TAILOR/index.html",
+    "main.39178f34.css.map": "/TRIP-TAILOR/static/css/main.39178f34.css.map",
+    "main.4a639999.js.map": "/TRIP-TAILOR/static/js/main.4a639999.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39178f34.css",
+    "static/js/main.4a639999.js"
+  ]
+}
