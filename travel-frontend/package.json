@@ -2,7 +2,7 @@
   "name": "travel-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shryithasuddala.github.io/TRIP-TAILOR",
+  "homepage": "https://shryithasuddala.github.io/triptrailor",
 
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
