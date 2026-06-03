@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Profile from "./Profile";
@@ -9,9 +9,10 @@ import TripNotes from "./TripNotes";
 
 function App() {
   return (
-    <BrowserRouter basename="/TRIP-TAILOR">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+
         <Route path="/about" element={<About />} />
 
         <Route
@@ -41,7 +42,7 @@ function App() {
           }
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
