@@ -1,5 +1,0 @@
-[
-  {"type": "bus", "cost": 500},
-  {"type": "train", "cost": 400},
-  {"type": "flight", "cost": 3000}
-]
