@@ -66,26 +66,26 @@ function About() {
 
   <div className="team-container">
     <div className="team-card">
-      <img src="https://res.cloudinary.com/dtnmwdkou/image/upload/q_auto/f_auto/v1732447816/achi_lqaazq.jpg" />
+      <img src="https://res.cloudinary.com/dtnmwdkou/image/upload/q_auto/f_auto/v1732447816/achi_lqaazq.jpg" alt="Vaishnavi Achi" />
       <h4>Vaishnavi Achi </h4>
       <p>Founder</p>
     </div>
 
     <div className="team-card">
-      <img src="https://res.cloudinary.com/dtnmwdkou/image/upload/q_auto/f_auto/v1732447975/pandu_jxr8tv.jpg" />
+      <img src="https://res.cloudinary.com/dtnmwdkou/image/upload/q_auto/f_auto/v1732447975/pandu_jxr8tv.jpg" alt="Shryitha Suddala" />
       <h4>Shryitha Suddala</h4>
       <p>Co-Founder</p>
     </div>
 
     <div className="team-card">
-      <img src="https://res.cloudinary.com/dtnmwdkou/image/upload/q_auto/f_auto/v1775374287/kavs_ay8qt2.jpg" />
+      <img src="https://res.cloudinary.com/dtnmwdkou/image/upload/q_auto/f_auto/v1775374287/kavs_ay8qt2.jpg" alt="Mendu Kavyasri" />
       <h4>Mendu Kavyasri</h4>
       <p>Planner</p>
     </div>
 
     {/* 🔥 NEW MEMBER */}
     <div className="team-card">
-      <img src="https://res.cloudinary.com/dtnmwdkou/image/upload/q_auto/f_auto/v1775291733/varshitha_cgmidb.jpg" />
+      <img src="https://res.cloudinary.com/dtnmwdkou/image/upload/q_auto/f_auto/v1775291733/varshitha_cgmidb.jpg" alt="Darmini Varshitha" />
       <h4>Darmini varshitha</h4>
       <p>Travel Expert</p>
     </div>

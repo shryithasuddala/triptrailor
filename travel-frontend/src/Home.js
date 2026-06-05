@@ -12,11 +12,12 @@ function Home() {
   const [currentImage, setCurrentImage] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, []);
+  const interval = setInterval(() => {
+    setCurrentImage((prev) => (prev + 1) % images.length);
+  }, 5000);
+
+  return () => clearInterval(interval);
+}, [images.length]);
 
   return (
     <div>
@@ -25,7 +26,7 @@ function Home() {
 
       {/* HERO */}
       <div className="hero">
-        <img src={images[currentImage]} className="hero-img" />
+        <img src={images[currentImage]} className="hero-img"  alt="Travel Destination"/>
 
         <div className="hero-text">
           <h1>Trip Tailor Pvt.Ltd</h1>

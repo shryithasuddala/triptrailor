@@ -653,7 +653,7 @@ Wanaparthy: [
     const [type, setType] = useState("");
     const [district, setDistrict] = useState("");
     const [plans, setPlans] = useState(null);
-    const [loading, setLoading] = useState(false);
+    const [, setLoading] = useState(false);
   
     // 🔥 WIKIPEDIA IMAGE
     const getPlaceImage = async (placeName) => {
